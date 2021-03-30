@@ -1,0 +1,36 @@
+For hpc, from 10-15-20; learned how to logon to hpc, how to submit jobs via sbatch and srun
+
+TO ACCESS VIA TERMINAL OR https://uhhpc.its.hawaii.edu/pun/sys/shell/ssh/login.hpc.ci.its.hawaii.edu (mana>clusters>_ManaShellAccess)
+
+in that path ^ "mana" = https://uhhpc.its.hawaii.edu/pun/sys/dashboard
+
+
+ssh lieblich@uhhpc.its.hawaii.edu 
+	#user@uhhpc.its.hawaii.edu
+
+
+FOR SBATCH for longer jobs
+
+[lieblich@login002 ~]$ cd ~/examples/slurm/non_mpi
+	# go to the directory
+	# the login002 part of [lieblich@login002 ~] is the login node; always submit jobs 	  via login nodes
+[lieblich@login002 non_mpi]$ ls
+build.sh  hello.c  Makefile  non_mpi.slurm
+[lieblich@login002 non_mpi]$ sbatch non_mpi.slurm
+	# submit the slurm example
+Submitted batch job 11046210
+	# this means it worked
+[lieblich@login002 non_mpi]$ 
+[lieblich@login002 non_mpi]$ ls
+build.sh  hello  hello-11046210.err  hello-11046210.out  hello.c  Makefile  non_mpi.slurm
+	# "batch text printed to screen needs to be placed somewhere, so those file capture what you would typically printed to screen" the new files hold the info from the file getting run instead of printing it 
+
+FOR INTERACTIVE RUN VIA SRUN for shorter jobs
+
+[lieblich@login002 ~]$ srun -I30 -p sandbox -t 60 --pty /bin/bash 	# see hpc slides for what that all means!
+srun: job 11046169 queued and waiting for resources
+srun: job 11046169 has been allocated resources
+slurmstepd: error: execve(): /bin/bash : No such file or directory
+srun: error: node-0005: task 0: Exited with exit code 2
+srun: Terminating job step 11046169.0
+	# this worked ...

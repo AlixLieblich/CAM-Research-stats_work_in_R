@@ -1,0 +1,202 @@
+Last login: Thu Oct 15 10:35:06 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Alixs-MacBook-Pro-2:~ alix$ pip install ndradex
+Collecting ndradex
+  Downloading ndradex-0.2.1.tar.gz (17 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+    Preparing wheel metadata ... done
+Collecting astropy<5.0,>=4.0
+  Downloading astropy-4.0.3-cp37-cp37m-macosx_10_9_x86_64.whl (6.6 MB)
+     |████████████████████████████████| 6.6 MB 980 kB/s
+Collecting numpy<2.0,>=1.18
+  Downloading numpy-1.19.2-cp37-cp37m-macosx_10_9_x86_64.whl (15.3 MB)
+     |████████████████████████████████| 15.3 MB 13.6 MB/s
+Collecting tqdm<5.0,>=4.41
+  Downloading tqdm-4.50.2-py2.py3-none-any.whl (70 kB)
+     |████████████████████████████████| 70 kB 12.7 MB/s
+Collecting toml<0.11,>=0.10
+  Downloading toml-0.10.1-py2.py3-none-any.whl (19 kB)
+Requirement already satisfied: pandas<1.2,>=0.25 in ./opt/anaconda3/lib/python3.7/site-packages (from ndradex) (0.25.1)
+Collecting astroquery<0.5,>=0.4
+  Downloading astroquery-0.4.1.tar.gz (6.5 MB)
+     |████████████████████████████████| 6.5 MB 5.2 MB/s
+Collecting netcdf4<2.0,>=1.5
+  Downloading netCDF4-1.5.4-cp37-cp37m-macosx_10_9_x86_64.whl (2.9 MB)
+     |████████████████████████████████| 2.9 MB 21.1 MB/s
+Collecting xarray<0.16,>=0.15
+  Downloading xarray-0.15.1-py3-none-any.whl (668 kB)
+     |████████████████████████████████| 668 kB 27.2 MB/s
+Requirement already satisfied: pytz>=2017.2 in ./opt/anaconda3/lib/python3.7/site-packages (from pandas<1.2,>=0.25->ndradex) (2019.3)
+Requirement already satisfied: python-dateutil>=2.6.1 in ./opt/anaconda3/lib/python3.7/site-packages (from pandas<1.2,>=0.25->ndradex) (2.8.0)
+Requirement already satisfied: requests>=2.4.3 in ./opt/anaconda3/lib/python3.7/site-packages (from astroquery<0.5,>=0.4->ndradex) (2.22.0)
+Requirement already satisfied: keyring>=4.0 in ./opt/anaconda3/lib/python3.7/site-packages (from astroquery<0.5,>=0.4->ndradex) (18.0.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in ./opt/anaconda3/lib/python3.7/site-packages (from astroquery<0.5,>=0.4->ndradex) (4.8.0)
+Requirement already satisfied: html5lib>=0.999 in ./opt/anaconda3/lib/python3.7/site-packages (from astroquery<0.5,>=0.4->ndradex) (1.0.1)
+Requirement already satisfied: six in ./opt/anaconda3/lib/python3.7/site-packages (from astroquery<0.5,>=0.4->ndradex) (1.12.0)
+Collecting cftime
+  Downloading cftime-1.2.1-cp37-cp37m-macosx_10_9_x86_64.whl (284 kB)
+     |████████████████████████████████| 284 kB 19.2 MB/s
+Requirement already satisfied: setuptools>=41.2 in ./opt/anaconda3/lib/python3.7/site-packages (from xarray<0.16,>=0.15->ndradex) (41.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./opt/anaconda3/lib/python3.7/site-packages (from requests>=2.4.3->astroquery<0.5,>=0.4->ndradex) (2019.9.11)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in ./opt/anaconda3/lib/python3.7/site-packages (from requests>=2.4.3->astroquery<0.5,>=0.4->ndradex) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in ./opt/anaconda3/lib/python3.7/site-packages (from requests>=2.4.3->astroquery<0.5,>=0.4->ndradex) (1.24.2)
+Requirement already satisfied: idna<2.9,>=2.5 in ./opt/anaconda3/lib/python3.7/site-packages (from requests>=2.4.3->astroquery<0.5,>=0.4->ndradex) (2.8)
+Requirement already satisfied: entrypoints in ./opt/anaconda3/lib/python3.7/site-packages (from keyring>=4.0->astroquery<0.5,>=0.4->ndradex) (0.3)
+Requirement already satisfied: soupsieve>=1.2 in ./opt/anaconda3/lib/python3.7/site-packages (from beautifulsoup4>=4.3.2->astroquery<0.5,>=0.4->ndradex) (1.9.3)
+Requirement already satisfied: webencodings in ./opt/anaconda3/lib/python3.7/site-packages (from html5lib>=0.999->astroquery<0.5,>=0.4->ndradex) (0.5.1)
+Building wheels for collected packages: ndradex, astroquery
+  Building wheel for ndradex (PEP 517) ... done
+  Created wheel for ndradex: filename=ndradex-0.2.1-py3-none-any.whl size=12188 sha256=f5b7611ac126373633edd1b6d53bc64098c7fdaba12943bd77443f2bcbc0855b
+  Stored in directory: /Users/alix/Library/Caches/pip/wheels/ac/7a/4c/0d523b498051407c38ffcc1644541dfc28002842982ca9df23
+  Building wheel for astroquery (setup.py) ... done
+  Created wheel for astroquery: filename=astroquery-0.4.1-py3-none-any.whl size=3831871 sha256=238012721dd8e9b6dbd2b40e3628c1653e6969efada649fb816c7a3f596c3930
+  Stored in directory: /Users/alix/Library/Caches/pip/wheels/59/74/e3/a457b9b06b2cf6a0126f316459030ee535cfaa95a69bbcc36f
+Successfully built ndradex astroquery
+Installing collected packages: numpy, astropy, tqdm, toml, astroquery, cftime, netcdf4, xarray, ndradex
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.17.2
+    Uninstalling numpy-1.17.2:
+      Successfully uninstalled numpy-1.17.2
+  Attempting uninstall: astropy
+    Found existing installation: astropy 3.2.2
+    Uninstalling astropy-3.2.2:
+      Successfully uninstalled astropy-3.2.2
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.36.1
+    Uninstalling tqdm-4.36.1:
+      Successfully uninstalled tqdm-4.36.1
+Successfully installed astropy-4.0.3 astroquery-0.4.1 cftime-1.2.1 ndradex-0.2.1 netcdf4-1.5.4 numpy-1.19.2 toml-0.10.1 tqdm-4.50.2 xarray-0.15.1
+(base) Alixs-MacBook-Pro-2:~ alix$ standard­RAxML­8.0.0.tar.gz
+-bash: standard­RAxML­8.0.0.tar.gz: command not found
+(base) Alixs-MacBook-Pro-2:~ alix$ cd standard­RAxML­8.0.0.tar.gz
+-bash: cd: standard­RAxML­8.0.0.tar.gz: No such file or directory
+(base) Alixs-MacBook-Pro-2:~ alix$ pwd
+/Users/alix
+(base) Alixs-MacBook-Pro-2:~ alix$ cd Desktop
+(base) Alixs-MacBook-Pro-2:Desktop alix$ cd standard­RAxML­8.0.0.tar.gz
+-bash: cd: standard­RAxML­8.0.0.tar.gz: No such file or directory
+(base) Alixs-MacBook-Pro-2:Desktop alix$ cd Downloads
+-bash: cd: Downloads: No such file or directory
+(base) Alixs-MacBook-Pro-2:Desktop alix$ cd alix
+-bash: cd: alix: No such file or directory
+(base) Alixs-MacBook-Pro-2:Desktop alix$ cd -
+/Users/alix
+(base) Alixs-MacBook-Pro-2:~ alix$ cd Downloads
+(base) Alixs-MacBook-Pro-2:Downloads alix$ cd standard­RAxML­8.0.0.tar.gz
+-bash: cd: standard­RAxML­8.0.0.tar.gz: No such file or directory
+(base) Alixs-MacBook-Pro-2:Downloads alix$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+(base) Alixs-MacBook-Pro-2:Downloads alix$ pwd
+/Users/alix/Downloads
+(base) Alixs-MacBook-Pro-2:Downloads alix$ cd-
+-bash: cd-: command not found
+(base) Alixs-MacBook-Pro-2:Downloads alix$ cd -
+/Users/alix
+(base) Alixs-MacBook-Pro-2:~ alix$ cd Desktop
+(base) Alixs-MacBook-Pro-2:Desktop alix$ cd standard-RAxML-master
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ls
+Makefile.AVX.HYBRID.gcc		Makefile.SSE3.MPI.gcc		classify.c			makenewzGenericSpecial.o	raxmlHPC-PTHREADS-SSE3
+Makefile.AVX.MPI.gcc		Makefile.SSE3.PTHREADS.gcc	classify.o			manual				raxmlHPC-SSE3
+Makefile.AVX.PTHREADS.gcc	Makefile.SSE3.PTHREADS.mac	eigen.c				mem_alloc.c			rmq.h
+Makefile.AVX.PTHREADS.mac	Makefile.SSE3.QuartetMPI.gcc	eigen.o				mem_alloc.o			rmqs.c
+Makefile.AVX.gcc		Makefile.SSE3.gcc		evaluateGenericSpecial.c	models.c			rmqs.h
+Makefile.AVX.mac		Makefile.SSE3.mac		evaluateGenericSpecial.o	models.o			rmqs.o
+Makefile.AVX2.HYBRID.gcc	Makefile.gcc			evaluatePartialGenericSpecial.c	multiple.c			rogueEPA.c
+Makefile.AVX2.MPI.gcc		README				evaluatePartialGenericSpecial.o	multiple.o			rogueEPA.o
+Makefile.AVX2.PTHREADS.gcc	WindowsExecutables_v8.2.10	fastDNAparsimony.c		newviewGenericSpecial.c		searchAlgo.c
+Makefile.AVX2.PTHREADS.mac	WindowsExecutables_v8.2.4	fastDNAparsimony.o		newviewGenericSpecial.o		searchAlgo.o
+Makefile.AVX2.gcc		ancestralStates.c		fastSearch.c			optimizeModel.c			topologies.c
+Makefile.AVX2.mac		ancestralStates.o		fastSearch.o			optimizeModel.o			topologies.o
+Makefile.HYBRID.gcc		avxLikelihood.c			globalVariables.h		parsePartitions.c		treeIO.c
+Makefile.MPI.gcc		axml.c				gpl-3.0.txt			parsePartitions.o		treeIO.o
+Makefile.PTHREADS.gcc		axml.h				leaveDropping.c			rapidBootstrap.c		usefulScripts
+Makefile.PTHREADS.mac		axml.o				leaveDropping.o			rapidBootstrap.o
+Makefile.QuartetMPI.gcc		bipartitionList.c		legacyCode.c			raxmlHPC
+Makefile.SSE3.HYBRID.gcc	bipartitionList.o		makenewzGenericSpecial.c	raxmlHPC-PTHREADS
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ls -a
+.				Makefile.PTHREADS.mac		axml.o				leaveDropping.o			rapidBootstrap.o
+..				Makefile.QuartetMPI.gcc		bipartitionList.c		legacyCode.c			raxmlHPC
+.gitignore			Makefile.SSE3.HYBRID.gcc	bipartitionList.o		makenewzGenericSpecial.c	raxmlHPC-PTHREADS
+Makefile.AVX.HYBRID.gcc		Makefile.SSE3.MPI.gcc		classify.c			makenewzGenericSpecial.o	raxmlHPC-PTHREADS-SSE3
+Makefile.AVX.MPI.gcc		Makefile.SSE3.PTHREADS.gcc	classify.o			manual				raxmlHPC-SSE3
+Makefile.AVX.PTHREADS.gcc	Makefile.SSE3.PTHREADS.mac	eigen.c				mem_alloc.c			rmq.h
+Makefile.AVX.PTHREADS.mac	Makefile.SSE3.QuartetMPI.gcc	eigen.o				mem_alloc.o			rmqs.c
+Makefile.AVX.gcc		Makefile.SSE3.gcc		evaluateGenericSpecial.c	models.c			rmqs.h
+Makefile.AVX.mac		Makefile.SSE3.mac		evaluateGenericSpecial.o	models.o			rmqs.o
+Makefile.AVX2.HYBRID.gcc	Makefile.gcc			evaluatePartialGenericSpecial.c	multiple.c			rogueEPA.c
+Makefile.AVX2.MPI.gcc		README				evaluatePartialGenericSpecial.o	multiple.o			rogueEPA.o
+Makefile.AVX2.PTHREADS.gcc	WindowsExecutables_v8.2.10	fastDNAparsimony.c		newviewGenericSpecial.c		searchAlgo.c
+Makefile.AVX2.PTHREADS.mac	WindowsExecutables_v8.2.4	fastDNAparsimony.o		newviewGenericSpecial.o		searchAlgo.o
+Makefile.AVX2.gcc		ancestralStates.c		fastSearch.c			optimizeModel.c			topologies.c
+Makefile.AVX2.mac		ancestralStates.o		fastSearch.o			optimizeModel.o			topologies.o
+Makefile.HYBRID.gcc		avxLikelihood.c			globalVariables.h		parsePartitions.c		treeIO.c
+Makefile.MPI.gcc		axml.c				gpl-3.0.txt			parsePartitions.o		treeIO.o
+Makefile.PTHREADS.gcc		axml.h				leaveDropping.c			rapidBootstrap.c		usefulScripts
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ls makefile.
+ls: makefile.: No such file or directory
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ls makefile.*
+ls: makefile.*: No such file or directory
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ls Makefile.*
+Makefile.AVX.HYBRID.gcc		Makefile.AVX.mac		Makefile.AVX2.gcc		Makefile.PTHREADS.mac		Makefile.SSE3.PTHREADS.mac
+Makefile.AVX.MPI.gcc		Makefile.AVX2.HYBRID.gcc	Makefile.AVX2.mac		Makefile.QuartetMPI.gcc		Makefile.SSE3.QuartetMPI.gcc
+Makefile.AVX.PTHREADS.gcc	Makefile.AVX2.MPI.gcc		Makefile.HYBRID.gcc		Makefile.SSE3.HYBRID.gcc	Makefile.SSE3.gcc
+Makefile.AVX.PTHREADS.mac	Makefile.AVX2.PTHREADS.gcc	Makefile.MPI.gcc		Makefile.SSE3.MPI.gcc		Makefile.SSE3.mac
+Makefile.AVX.gcc		Makefile.AVX2.PTHREADS.mac	Makefile.PTHREADS.gcc		Makefile.SSE3.PTHREADS.gcc	Makefile.gcc
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ make ­f Makefile.AVX.gcc
+make: *** No rule to make target `­f'.  Stop.
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ raxmlHPC­AVX
+-bash: raxmlHPC­AVX: command not found
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ make ­-f Makefile.AVX.gcc
+make: *** No rule to make target `­-f'.  Stop.
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ make -f Makefile.AVX.gcc
+rm -f *.o raxmlHPC-AVX
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o axml.o axml.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o optimizeModel.o optimizeModel.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o multiple.o multiple.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o searchAlgo.o searchAlgo.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o topologies.o topologies.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o parsePartitions.o parsePartitions.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o treeIO.o treeIO.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o models.o models.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o bipartitionList.o bipartitionList.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o rapidBootstrap.o rapidBootstrap.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o evaluatePartialGenericSpecial.o evaluatePartialGenericSpecial.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o evaluateGenericSpecial.o evaluateGenericSpecial.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o newviewGenericSpecial.o newviewGenericSpecial.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o makenewzGenericSpecial.o makenewzGenericSpecial.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o classify.o classify.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX  -mavx -c -o fastDNAparsimony.o fastDNAparsimony.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o fastSearch.o fastSearch.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o leaveDropping.o leaveDropping.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o rmqs.o rmqs.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o rogueEPA.o rogueEPA.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o ancestralStates.o ancestralStates.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX  -mavx -c -o avxLikelihood.o avxLikelihood.c
+gcc  -D__SIM_SSE3 -msse3 -D_GNU_SOURCE -O2 -fomit-frame-pointer -funroll-loops -D__AVX    -c -o mem_alloc.o mem_alloc.c
+gcc  -c -o eigen.o eigen.c
+gcc  -o raxmlHPC-AVX axml.o  optimizeModel.o multiple.o searchAlgo.o topologies.o parsePartitions.o treeIO.o models.o bipartitionList.o rapidBootstrap.o evaluatePartialGenericSpecial.o evaluateGenericSpecial.o newviewGenericSpecial.o makenewzGenericSpecial.o   classify.o fastDNAparsimony.o fastSearch.o leaveDropping.o rmqs.o rogueEPA.o ancestralStates.o avxLikelihood.o   mem_alloc.o eigen.o  -lm
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ raxmlHPC-AVX
+-bash: raxmlHPC-AVX: command not found
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ raxmlHPC­AVX
+-bash: raxmlHPC­AVX: command not found
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ raxmlHPC-AVX
+-bash: raxmlHPC-AVX: command not found
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ./raxml -p 100 -s raxmlinput.txt -n test.out -m PROTCATWAG
+-bash: ./raxml: No such file or directory
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ./raxmlHPC-AVX
+
+ Error, you must specify a model of substitution with the "-m" option
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ./raxmlHPC-AVX -p 100 -s raxmlinput.txt -n test.out -m PROTCATWAG
+The file raxmlinput.txt you want to open for reading does not exist, exiting ...
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ ./raxmlHPC-AVX -p 100 -s raxmlinput.txt -n test.out -m PROTCATWAG
+
+RAxML can't, parse the alignment file as phylip file
+it will now try to parse it as FASTA file
+
+TOO FEW SPECIES
+(base) Alixs-MacBook-Pro-2:standard-RAxML-master alix$ pwd
+/Users/alix/Desktop/standard-RAxML-master
